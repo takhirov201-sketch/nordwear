@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Bolalar sport shimi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9aa3af"/>
+      <stop offset="1" stop-color="#6f7783"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="530" rx="170" ry="24" fill="#0f172a" opacity="0.07"/>
+  <path d="M212 168 L388 168 L398 250 L378 512 L316 512 L300 318 L284 512 L222 512
+          L202 250 Z" fill="url(#gm)" stroke="#6f7783" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="202" y1="212" x2="398" y2="212" stroke="#6f7783" stroke-width="7"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Bolalar hudisi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3273cc"/>
+      <stop offset="1" stop-color="#245697"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="530" rx="170" ry="24" fill="#0f172a" opacity="0.07"/>
+  <path d="M185 165 L255 130 Q300 200 345 130 L415 165 L462 235 L410 280 L396 258
+           L396 500 Q300 516 204 500 L204 258 L190 280 L138 235 Z" fill="url(#gm)" stroke="#245697" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M255 130 Q300 196 345 130 Q330 108 300 104 Q270 108 255 130 Z"
+      fill="#245697" opacity="0.55"/>
+  <rect x="248" y="366" width="104" height="66" rx="14" fill="#245697" opacity="0.35"/>
+</svg>

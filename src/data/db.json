@@ -1,0 +1,1836 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Klassik oq futbolka",
+      "price": 45000,
+      "category": "futbolka",
+      "color": "oq",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 5,
+        "M": 10,
+        "L": 8,
+        "XL": 2
+      },
+      "image": "/1.jpg",
+      "images": [
+        "/1.jpg"
+      ],
+      "stock": 25,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Klassik oq futbolka - qulay va stilish",
+      "nameKey": "classicWhiteTee",
+      "colorKey": "white",
+      "categoryKey": "futbolka",
+      "i18n": {
+        "uz": {
+          "name": "Klassik oq futbolka",
+          "color": "Oq",
+          "category": "Futbolka",
+          "description": "Klassik oq futbolka - qulay va stilish"
+        },
+        "ru": {
+          "name": "Классическая белая футболка",
+          "color": "Белый",
+          "category": "Футболка",
+          "description": "Классическая белая футболка — удобная и стильная."
+        },
+        "en": {
+          "name": "Classic White T-Shirt",
+          "color": "White",
+          "category": "T-Shirt",
+          "description": "A classic white tee — comfortable and versatile."
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "Rasmiy ko'ylak",
+      "price": 95000,
+      "category": "shirt",
+      "color": "ko'k",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "sizesStock": {
+        "S": 3,
+        "M": 7,
+        "L": 6,
+        "XL": 4,
+        "XXL": 2
+      },
+      "image": "/2.jpg",
+      "images": [
+        "/2.jpg"
+      ],
+      "stock": 22,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Rasmiy ko'ylak - biznes va har kunlik kiyish uchun",
+      "nameKey": "formalShirt",
+      "colorKey": "blue",
+      "categoryKey": "shirt",
+      "i18n": {
+        "uz": {
+          "name": "Rasmiy ko'ylak",
+          "color": "Ko'k",
+          "category": "Ko'ylak",
+          "description": "Rasmiy ko'ylak - biznes va har kunlik kiyish uchun"
+        },
+        "ru": {
+          "name": "Классическая рубашка",
+          "color": "Синий",
+          "category": "Рубашка",
+          "description": "Классическая рубашка для офиса и торжеств."
+        },
+        "en": {
+          "name": "Formal Shirt",
+          "color": "Blue",
+          "category": "Shirt",
+          "description": "A formal shirt for the office and special occasions."
+        }
+      }
+    },
+    {
+      "id": "3",
+      "name": "Denim jinsi shim",
+      "price": 125000,
+      "category": "trousers",
+      "color": "ko'k",
+      "size": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "sizesStock": {
+        "28": 2,
+        "30": 5,
+        "32": 8,
+        "34": 6,
+        "36": 3
+      },
+      "image": "/3.jpg",
+      "images": [
+        "/3.jpg"
+      ],
+      "stock": 24,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Klassik denim jinsi shim - qora rang",
+      "nameKey": "denimJeans",
+      "colorKey": "blue",
+      "categoryKey": "trousers",
+      "i18n": {
+        "uz": {
+          "name": "Denim jinsi shim",
+          "color": "Ko'k",
+          "category": "Shalvar",
+          "description": "Klassik denim jinsi shim - qora rang"
+        },
+        "ru": {
+          "name": "Джинсы",
+          "color": "Синий",
+          "category": "Брюки",
+          "description": "Прочные джинсы прямого кроя."
+        },
+        "en": {
+          "name": "Denim Jeans",
+          "color": "Blue",
+          "category": "Trousers",
+          "description": "Durable straight-cut denim jeans."
+        }
+      }
+    },
+    {
+      "id": "4",
+      "name": "Sport shorti",
+      "price": 35000,
+      "category": "shorts",
+      "color": "qora",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 6,
+        "M": 12,
+        "L": 10,
+        "XL": 4
+      },
+      "image": "/4.webp",
+      "images": [
+        "/4.webp"
+      ],
+      "stock": 32,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Sport shorti - yozning eng zo'r tanlovı",
+      "nameKey": "sportShorts",
+      "colorKey": "black",
+      "categoryKey": "shorts",
+      "i18n": {
+        "uz": {
+          "name": "Sport shorti",
+          "color": "Qora",
+          "category": "Shorti",
+          "description": "Sport shorti - yozning eng zo'r tanlovı"
+        },
+        "ru": {
+          "name": "Спортивные шорты",
+          "color": "Черный",
+          "category": "Шорты",
+          "description": "Лёгкие спортивные шорты для тренировок."
+        },
+        "en": {
+          "name": "Sports Shorts",
+          "color": "Black",
+          "category": "Shorts",
+          "description": "Lightweight sports shorts for training."
+        }
+      }
+    },
+    {
+      "id": "5",
+      "name": "Oversize hudi",
+      "price": 85000,
+      "category": "hoodie",
+      "color": "oq",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "sizesStock": {
+        "S": 4,
+        "M": 8,
+        "L": 7,
+        "XL": 5,
+        "XXL": 2
+      },
+      "image": "/5.webp",
+      "images": [
+        "/5.webp"
+      ],
+      "stock": 26,
+      "forWho": "Barchaga",
+      "description": "Oversize hudi - qulay va zamonaviy",
+      "nameKey": "oversizedHoodie",
+      "colorKey": "white",
+      "categoryKey": "hoodie",
+      "i18n": {
+        "uz": {
+          "name": "Oversize hudi",
+          "color": "Oq",
+          "category": "Hudi",
+          "description": "Oversize hudi - qulay va zamonaviy"
+        },
+        "ru": {
+          "name": "Худи оверсайз",
+          "color": "Белый",
+          "category": "Худи",
+          "description": "Худи оверсайз с мягким флисом внутри."
+        },
+        "en": {
+          "name": "Oversize Hoodie",
+          "color": "White",
+          "category": "Hoodie",
+          "description": "Oversize hoodie with a soft fleece lining."
+        }
+      }
+    },
+    {
+      "id": "6",
+      "name": "Bomber kurtka",
+      "price": 145000,
+      "category": "jacket",
+      "color": "qora",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 3,
+        "M": 6,
+        "L": 5,
+        "XL": 2
+      },
+      "image": "/6.webp",
+      "images": [
+        "/6.webp"
+      ],
+      "stock": 16,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Bomber kurtka - qog'in va zamonaviy",
+      "nameKey": "bomberJacket",
+      "colorKey": "black",
+      "categoryKey": "jacket",
+      "i18n": {
+        "uz": {
+          "name": "Bomber kurtka",
+          "color": "Qora",
+          "category": "Kurtka",
+          "description": "Bomber kurtka - qog'in va zamonaviy"
+        },
+        "ru": {
+          "name": "Куртка-бомбер",
+          "color": "Черный",
+          "category": "Куртка",
+          "description": "Лёгкая куртка-бомбер для межсезонья."
+        },
+        "en": {
+          "name": "Bomber Jacket",
+          "color": "Black",
+          "category": "Jacket",
+          "description": "A light bomber jacket for mid-season."
+        }
+      }
+    },
+    {
+      "id": "7",
+      "name": "Polo futbolka",
+      "price": 65000,
+      "category": "polo",
+      "color": "to'q ko'k",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 5,
+        "M": 9,
+        "L": 7,
+        "XL": 3
+      },
+      "image": "/7.webp",
+      "images": [
+        "/7.webp"
+      ],
+      "stock": 24,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Polo futbolka - klassik va qulay",
+      "nameKey": "poloShirt",
+      "colorKey": "navy",
+      "categoryKey": "polo",
+      "i18n": {
+        "uz": {
+          "name": "Polo futbolka",
+          "color": "To'q ko'k",
+          "category": "Polo",
+          "description": "Polo futbolka - klassik va qulay"
+        },
+        "ru": {
+          "name": "Рубашка поло",
+          "color": "Темно-синий",
+          "category": "Поло",
+          "description": "Рубашка поло из дышащей ткани."
+        },
+        "en": {
+          "name": "Polo Shirt",
+          "color": "Navy Blue",
+          "category": "Polo",
+          "description": "Polo shirt in breathable fabric."
+        }
+      }
+    },
+    {
+      "id": "8",
+      "name": "Cargo shim",
+      "price": 115000,
+      "category": "trousers",
+      "color": "xaki",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 4,
+        "M": 8,
+        "L": 7,
+        "XL": 3
+      },
+      "image": "/8.jpg",
+      "images": [
+        "/8.jpg"
+      ],
+      "stock": 22,
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Cargo shim - qulay va funksional",
+      "nameKey": "cargoPants",
+      "colorKey": "khaki",
+      "categoryKey": "trousers",
+      "i18n": {
+        "uz": {
+          "name": "Cargo shim",
+          "color": "Xaki",
+          "category": "Shalvar",
+          "description": "Cargo shim - qulay va funksional"
+        },
+        "ru": {
+          "name": "Брюки карго",
+          "color": "Хаки",
+          "category": "Брюки",
+          "description": "Брюки карго с накладными карманами."
+        },
+        "en": {
+          "name": "Cargo Pants",
+          "color": "Khaki",
+          "category": "Trousers",
+          "description": "Cargo pants with utility pockets."
+        }
+      }
+    },
+    {
+      "id": "9",
+      "name": "Trikotaj sviter",
+      "price": 75000,
+      "category": "sweater",
+      "color": "bej",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 5,
+        "M": 10,
+        "L": 8,
+        "XL": 3
+      },
+      "image": "/9.jpeg",
+      "images": [
+        "/9.jpeg"
+      ],
+      "stock": 26,
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Trikotaj sviter - issiq va stilish",
+      "nameKey": "knitSweater",
+      "colorKey": "beige",
+      "categoryKey": "sweater",
+      "i18n": {
+        "uz": {
+          "name": "Trikotaj sviter",
+          "color": "Bej",
+          "category": "Sviter",
+          "description": "Trikotaj sviter - issiq va stilish"
+        },
+        "ru": {
+          "name": "Трикотажный свитер",
+          "color": "Бежевый",
+          "category": "Свитер",
+          "description": "Мягкий трикотажный свитер на осень и зиму."
+        },
+        "en": {
+          "name": "Knit Sweater",
+          "color": "Beige",
+          "category": "Sweater",
+          "description": "A soft knit sweater for autumn and winter."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "name": "Sport kostyum",
+      "price": 135000,
+      "category": "tracksuit",
+      "color": "to'q ko'k",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "S": 4,
+        "M": 7,
+        "L": 6,
+        "XL": 2
+      },
+      "image": "/10.jpg",
+      "images": [
+        "/10.jpg"
+      ],
+      "stock": 19,
+      "forWho": "Barchaga",
+      "description": "Sport kostyum - aktiv turmush uchun",
+      "nameKey": "sportTracksuit",
+      "colorKey": "navy",
+      "categoryKey": "tracksuit",
+      "i18n": {
+        "uz": {
+          "name": "Sport kostyum",
+          "color": "To'q ko'k",
+          "category": "Sport kostyum",
+          "description": "Sport kostyum - aktiv turmush uchun"
+        },
+        "ru": {
+          "name": "Спортивный костюм",
+          "color": "Темно-синий",
+          "category": "Спортивный костюм",
+          "description": "Спортивный костюм из двух частей."
+        },
+        "en": {
+          "name": "Tracksuit",
+          "color": "Navy Blue",
+          "category": "Tracksuit",
+          "description": "A two-piece tracksuit."
+        }
+      }
+    },
+    {
+      "name": "Ayollar yozgi ko'ylagi",
+      "price": 189000,
+      "category": "dress",
+      "color": "pushti",
+      "colorKey": "pink",
+      "categoryKey": "dress",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-yozgi-koylagi.svg",
+      "images": [
+        "/catalog/ayollar-yozgi-koylagi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Yengil yozgi ko'ylak, kundalik kiyim uchun qulay.",
+      "id": "UnSsIp404B4",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar yozgi ko'ylagi",
+          "color": "Pushti",
+          "category": "Ko'ylak",
+          "description": "Yengil yozgi ko'ylak, kundalik kiyim uchun qulay."
+        },
+        "ru": {
+          "name": "Женское летнее платье",
+          "color": "Розовый",
+          "category": "Платье",
+          "description": "Yengil yozgi ko'ylak, kundalik kiyim uchun qulay."
+        },
+        "en": {
+          "name": "Women's Summer Dress",
+          "color": "Pink",
+          "category": "Dress",
+          "description": "Yengil yozgi ko'ylak, kundalik kiyim uchun qulay."
+        }
+      }
+    },
+    {
+      "name": "Ayollar shifon bluzkasi",
+      "price": 145000,
+      "category": "shirt",
+      "color": "oq",
+      "colorKey": "white",
+      "categoryKey": "shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-shifon-bluzkasi.svg",
+      "images": [
+        "/catalog/ayollar-shifon-bluzkasi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Shifon bluzka, ofis va bayram uchun.",
+      "id": "XrKYEXS-kZk",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar shifon bluzkasi",
+          "color": "Oq",
+          "category": "Ko'ylak",
+          "description": "Shifon bluzka, ofis va bayram uchun."
+        },
+        "ru": {
+          "name": "Женская шифоновая блузка",
+          "color": "Белый",
+          "category": "Рубашка",
+          "description": "Shifon bluzka, ofis va bayram uchun."
+        },
+        "en": {
+          "name": "Women's Chiffon Blouse",
+          "color": "White",
+          "category": "Shirt",
+          "description": "Shifon bluzka, ofis va bayram uchun."
+        }
+      }
+    },
+    {
+      "name": "Ayollar trikotaj sviteri",
+      "price": 219000,
+      "category": "sweater",
+      "color": "bej",
+      "colorKey": "beige",
+      "categoryKey": "sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-trikotaj-sviteri.svg",
+      "images": [
+        "/catalog/ayollar-trikotaj-sviteri.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Yumshoq trikotaj sviter, kuz-qish mavsumi uchun.",
+      "id": "1O2cNBuXv2U",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar trikotaj sviteri",
+          "color": "Bej",
+          "category": "Sviter",
+          "description": "Yumshoq trikotaj sviter, kuz-qish mavsumi uchun."
+        },
+        "ru": {
+          "name": "Женский трикотажный свитер",
+          "color": "Бежевый",
+          "category": "Свитер",
+          "description": "Yumshoq trikotaj sviter, kuz-qish mavsumi uchun."
+        },
+        "en": {
+          "name": "Women's Knit Sweater",
+          "color": "Beige",
+          "category": "Sweater",
+          "description": "Yumshoq trikotaj sviter, kuz-qish mavsumi uchun."
+        }
+      }
+    },
+    {
+      "name": "Ayollar oversize hudisi",
+      "price": 239000,
+      "category": "hoodie",
+      "color": "siren",
+      "colorKey": "lilac",
+      "categoryKey": "hoodie",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-oversize-hudisi.svg",
+      "images": [
+        "/catalog/ayollar-oversize-hudisi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Oversize hudi, ichi yumshoq flis.",
+      "id": "O-0FSCYzOhM",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar oversize hudisi",
+          "color": "Siren",
+          "category": "Hudi",
+          "description": "Oversize hudi, ichi yumshoq flis."
+        },
+        "ru": {
+          "name": "Женское худи оверсайз",
+          "color": "Сиреневый",
+          "category": "Худи",
+          "description": "Oversize hudi, ichi yumshoq flis."
+        },
+        "en": {
+          "name": "Women's Oversize Hoodie",
+          "color": "Lilac",
+          "category": "Hoodie",
+          "description": "Oversize hudi, ichi yumshoq flis."
+        }
+      }
+    },
+    {
+      "name": "Ayollar klassik shimi",
+      "price": 199000,
+      "category": "trousers",
+      "color": "qora",
+      "colorKey": "black",
+      "categoryKey": "trousers",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-klassik-shimi.svg",
+      "images": [
+        "/catalog/ayollar-klassik-shimi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Klassik to'g'ri shim, ofis uslubi.",
+      "id": "QJy9RnBlXBg",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar klassik shimi",
+          "color": "Qora",
+          "category": "Shalvar",
+          "description": "Klassik to'g'ri shim, ofis uslubi."
+        },
+        "ru": {
+          "name": "Женские классические брюки",
+          "color": "Черный",
+          "category": "Брюки",
+          "description": "Klassik to'g'ri shim, ofis uslubi."
+        },
+        "en": {
+          "name": "Women's Classic Trousers",
+          "color": "Black",
+          "category": "Trousers",
+          "description": "Klassik to'g'ri shim, ofis uslubi."
+        }
+      }
+    },
+    {
+      "name": "Ayollar jinsi yubkasi",
+      "price": 159000,
+      "category": "skirt",
+      "color": "ko'k",
+      "colorKey": "blue",
+      "categoryKey": "skirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-jinsi-yubkasi.svg",
+      "images": [
+        "/catalog/ayollar-jinsi-yubkasi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Denim yubka, kundalik kiyim uchun.",
+      "id": "XfEzhNtq8BA",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar jinsi yubkasi",
+          "color": "Ko'k",
+          "category": "Yubka",
+          "description": "Denim yubka, kundalik kiyim uchun."
+        },
+        "ru": {
+          "name": "Женская джинсовая юбка",
+          "color": "Синий",
+          "category": "Юбка",
+          "description": "Denim yubka, kundalik kiyim uchun."
+        },
+        "en": {
+          "name": "Women's Denim Skirt",
+          "color": "Blue",
+          "category": "Skirt",
+          "description": "Denim yubka, kundalik kiyim uchun."
+        }
+      }
+    },
+    {
+      "name": "Ayollar bomber kurtkasi",
+      "price": 329000,
+      "category": "jacket",
+      "color": "qizil",
+      "colorKey": "red",
+      "categoryKey": "jacket",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-bomber-kurtkasi.svg",
+      "images": [
+        "/catalog/ayollar-bomber-kurtkasi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Yengil bomber kurtka, demi-mavsum uchun.",
+      "id": "dZMR4pFMVLA",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar bomber kurtkasi",
+          "color": "Qizil",
+          "category": "Kurtka",
+          "description": "Yengil bomber kurtka, demi-mavsum uchun."
+        },
+        "ru": {
+          "name": "Женская куртка-бомбер",
+          "color": "Красный",
+          "category": "Куртка",
+          "description": "Yengil bomber kurtka, demi-mavsum uchun."
+        },
+        "en": {
+          "name": "Women's Bomber Jacket",
+          "color": "Red",
+          "category": "Jacket",
+          "description": "Yengil bomber kurtka, demi-mavsum uchun."
+        }
+      }
+    },
+    {
+      "name": "Ayollar sport futbolkasi",
+      "price": 99000,
+      "category": "tshirt",
+      "color": "yashil",
+      "colorKey": "green",
+      "categoryKey": "tshirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-sport-futbolkasi.svg",
+      "images": [
+        "/catalog/ayollar-sport-futbolkasi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Nafas oluvchi matodan sport futbolkasi.",
+      "id": "CqT_YURcUd8",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar sport futbolkasi",
+          "color": "Yashil",
+          "category": "Futbolka",
+          "description": "Nafas oluvchi matodan sport futbolkasi."
+        },
+        "ru": {
+          "name": "Женская спортивная футболка",
+          "color": "Зеленый",
+          "category": "Футболка",
+          "description": "Nafas oluvchi matodan sport futbolkasi."
+        },
+        "en": {
+          "name": "Women's Sports T-Shirt",
+          "color": "Green",
+          "category": "T-Shirt",
+          "description": "Nafas oluvchi matodan sport futbolkasi."
+        }
+      }
+    },
+    {
+      "name": "Ayollar palto",
+      "price": 459000,
+      "category": "jacket",
+      "color": "bej",
+      "colorKey": "beige",
+      "categoryKey": "jacket",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-palto.svg",
+      "images": [
+        "/catalog/ayollar-palto.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Uzun palto, jun aralashmasi.",
+      "id": "d-9wcXFGJTA",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar palto",
+          "color": "Bej",
+          "category": "Kurtka",
+          "description": "Uzun palto, jun aralashmasi."
+        },
+        "ru": {
+          "name": "Женское пальто",
+          "color": "Бежевый",
+          "category": "Куртка",
+          "description": "Uzun palto, jun aralashmasi."
+        },
+        "en": {
+          "name": "Women's Coat",
+          "color": "Beige",
+          "category": "Jacket",
+          "description": "Uzun palto, jun aralashmasi."
+        }
+      }
+    },
+    {
+      "name": "Ayollar sport shorti",
+      "price": 89000,
+      "category": "shorts",
+      "color": "qora",
+      "colorKey": "black",
+      "categoryKey": "shorts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "sizesStock": {
+        "XS": 8,
+        "S": 8,
+        "M": 8,
+        "L": 8,
+        "XL": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-sport-shorti.svg",
+      "images": [
+        "/catalog/ayollar-sport-shorti.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Yengil sport shorti, mashg'ulotlar uchun.",
+      "id": "7pbHd-HI7Dc",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar sport shorti",
+          "color": "Qora",
+          "category": "Shorti",
+          "description": "Yengil sport shorti, mashg'ulotlar uchun."
+        },
+        "ru": {
+          "name": "Женские спортивные шорты",
+          "color": "Черный",
+          "category": "Шорты",
+          "description": "Yengil sport shorti, mashg'ulotlar uchun."
+        },
+        "en": {
+          "name": "Women's Sports Shorts",
+          "color": "Black",
+          "category": "Shorts",
+          "description": "Yengil sport shorti, mashg'ulotlar uchun."
+        }
+      }
+    },
+    {
+      "name": "Bolalar futbolkasi",
+      "price": 69000,
+      "category": "tshirt",
+      "color": "sariq",
+      "colorKey": "yellow",
+      "categoryKey": "tshirt",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-futbolkasi.svg",
+      "images": [
+        "/catalog/bolalar-futbolkasi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Yumshoq paxta futbolka, kundalik kiyim.",
+      "id": "4aYKgJwq7eM",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar futbolkasi",
+          "color": "Sariq",
+          "category": "Futbolka",
+          "description": "Yumshoq paxta futbolka, kundalik kiyim."
+        },
+        "ru": {
+          "name": "Детская футболка",
+          "color": "Желтый",
+          "category": "Футболка",
+          "description": "Yumshoq paxta futbolka, kundalik kiyim."
+        },
+        "en": {
+          "name": "Kids' T-Shirt",
+          "color": "Yellow",
+          "category": "T-Shirt",
+          "description": "Yumshoq paxta futbolka, kundalik kiyim."
+        }
+      }
+    },
+    {
+      "name": "Bolalar hudisi",
+      "price": 139000,
+      "category": "hoodie",
+      "color": "ko'k",
+      "colorKey": "blue",
+      "categoryKey": "hoodie",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-hudisi.svg",
+      "images": [
+        "/catalog/bolalar-hudisi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Issiq hudi, maktab va sayr uchun.",
+      "id": "t7016WXMFuA",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar hudisi",
+          "color": "Ko'k",
+          "category": "Hudi",
+          "description": "Issiq hudi, maktab va sayr uchun."
+        },
+        "ru": {
+          "name": "Детское худи",
+          "color": "Синий",
+          "category": "Худи",
+          "description": "Issiq hudi, maktab va sayr uchun."
+        },
+        "en": {
+          "name": "Kids' Hoodie",
+          "color": "Blue",
+          "category": "Hoodie",
+          "description": "Issiq hudi, maktab va sayr uchun."
+        }
+      }
+    },
+    {
+      "name": "Bolalar sport shimi",
+      "price": 109000,
+      "category": "trousers",
+      "color": "kulrang",
+      "colorKey": "grey",
+      "categoryKey": "trousers",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-sport-shimi.svg",
+      "images": [
+        "/catalog/bolalar-sport-shimi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Qulay sport shim, rezinkali bel.",
+      "id": "MuawOlX-gO4",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar sport shimi",
+          "color": "Kulrang",
+          "category": "Shalvar",
+          "description": "Qulay sport shim, rezinkali bel."
+        },
+        "ru": {
+          "name": "Детские спортивные брюки",
+          "color": "Серый",
+          "category": "Брюки",
+          "description": "Qulay sport shim, rezinkali bel."
+        },
+        "en": {
+          "name": "Kids' Joggers",
+          "color": "Grey",
+          "category": "Trousers",
+          "description": "Qulay sport shim, rezinkali bel."
+        }
+      }
+    },
+    {
+      "name": "Bolalar kurtkasi",
+      "price": 249000,
+      "category": "jacket",
+      "color": "qizil",
+      "colorKey": "red",
+      "categoryKey": "jacket",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-kurtkasi.svg",
+      "images": [
+        "/catalog/bolalar-kurtkasi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Yengil kurtka, shamoldan himoya qiladi.",
+      "id": "_mXwOTjHyZI",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar kurtkasi",
+          "color": "Qizil",
+          "category": "Kurtka",
+          "description": "Yengil kurtka, shamoldan himoya qiladi."
+        },
+        "ru": {
+          "name": "Детская куртка",
+          "color": "Красный",
+          "category": "Куртка",
+          "description": "Yengil kurtka, shamoldan himoya qiladi."
+        },
+        "en": {
+          "name": "Kids' Jacket",
+          "color": "Red",
+          "category": "Jacket",
+          "description": "Yengil kurtka, shamoldan himoya qiladi."
+        }
+      }
+    },
+    {
+      "name": "Bolalar ko'ylagi",
+      "price": 129000,
+      "category": "dress",
+      "color": "siren",
+      "colorKey": "lilac",
+      "categoryKey": "dress",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-koylagi.svg",
+      "images": [
+        "/catalog/bolalar-koylagi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Bayramona bolalar ko'ylagi.",
+      "id": "IZzdDm82J0E",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar ko'ylagi",
+          "color": "Siren",
+          "category": "Ko'ylak",
+          "description": "Bayramona bolalar ko'ylagi."
+        },
+        "ru": {
+          "name": "Детское платье",
+          "color": "Сиреневый",
+          "category": "Платье",
+          "description": "Bayramona bolalar ko'ylagi."
+        },
+        "en": {
+          "name": "Kids' Dress",
+          "color": "Lilac",
+          "category": "Dress",
+          "description": "Bayramona bolalar ko'ylagi."
+        }
+      }
+    },
+    {
+      "name": "Bolalar shorti",
+      "price": 59000,
+      "category": "shorts",
+      "color": "yashil",
+      "colorKey": "green",
+      "categoryKey": "shorts",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-shorti.svg",
+      "images": [
+        "/catalog/bolalar-shorti.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Yozgi shorti, yengil mato.",
+      "id": "Rm1ZOUI3Lzk",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar shorti",
+          "color": "Yashil",
+          "category": "Shorti",
+          "description": "Yozgi shorti, yengil mato."
+        },
+        "ru": {
+          "name": "Детские шорты",
+          "color": "Зеленый",
+          "category": "Шорты",
+          "description": "Yozgi shorti, yengil mato."
+        },
+        "en": {
+          "name": "Kids' Shorts",
+          "color": "Green",
+          "category": "Shorts",
+          "description": "Yozgi shorti, yengil mato."
+        }
+      }
+    },
+    {
+      "name": "Bolalar sviteri",
+      "price": 149000,
+      "category": "sweater",
+      "color": "bej",
+      "colorKey": "beige",
+      "categoryKey": "sweater",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-sviteri.svg",
+      "images": [
+        "/catalog/bolalar-sviteri.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Trikotaj sviter, qish uchun issiq.",
+      "id": "HCRoj2LbVYo",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar sviteri",
+          "color": "Bej",
+          "category": "Sviter",
+          "description": "Trikotaj sviter, qish uchun issiq."
+        },
+        "ru": {
+          "name": "Детский свитер",
+          "color": "Бежевый",
+          "category": "Свитер",
+          "description": "Trikotaj sviter, qish uchun issiq."
+        },
+        "en": {
+          "name": "Kids' Sweater",
+          "color": "Beige",
+          "category": "Sweater",
+          "description": "Trikotaj sviter, qish uchun issiq."
+        }
+      }
+    },
+    {
+      "name": "Bolalar jinsi shimi",
+      "price": 129000,
+      "category": "trousers",
+      "color": "ko'k",
+      "colorKey": "blue",
+      "categoryKey": "trousers",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-jinsi-shimi.svg",
+      "images": [
+        "/catalog/bolalar-jinsi-shimi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Chidamli denim shim.",
+      "id": "mARa5lQvV_4",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar jinsi shimi",
+          "color": "Ko'k",
+          "category": "Shalvar",
+          "description": "Chidamli denim shim."
+        },
+        "ru": {
+          "name": "Детские джинсы",
+          "color": "Синий",
+          "category": "Брюки",
+          "description": "Chidamli denim shim."
+        },
+        "en": {
+          "name": "Kids' Jeans",
+          "color": "Blue",
+          "category": "Trousers",
+          "description": "Chidamli denim shim."
+        }
+      }
+    },
+    {
+      "name": "Bolalar bluzkasi",
+      "price": 99000,
+      "category": "shirt",
+      "color": "oq",
+      "colorKey": "white",
+      "categoryKey": "shirt",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-bluzkasi.svg",
+      "images": [
+        "/catalog/bolalar-bluzkasi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Maktab uchun oq bluzka.",
+      "id": "O_lTv97Lkec",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar bluzkasi",
+          "color": "Oq",
+          "category": "Ko'ylak",
+          "description": "Maktab uchun oq bluzka."
+        },
+        "ru": {
+          "name": "Детская блузка",
+          "color": "Белый",
+          "category": "Рубашка",
+          "description": "Maktab uchun oq bluzka."
+        },
+        "en": {
+          "name": "Kids' Blouse",
+          "color": "White",
+          "category": "Shirt",
+          "description": "Maktab uchun oq bluzka."
+        }
+      }
+    },
+    {
+      "name": "Bolalar sport kostyumi",
+      "price": 269000,
+      "category": "tracksuit",
+      "color": "to'q ko'k",
+      "colorKey": "navy",
+      "categoryKey": "tracksuit",
+      "size": [
+        "2-3",
+        "4-5",
+        "6-7",
+        "8-9",
+        "10-11"
+      ],
+      "sizesStock": {
+        "2-3": 6,
+        "4-5": 6,
+        "6-7": 6,
+        "8-9": 6,
+        "10-11": 6
+      },
+      "stock": 30,
+      "image": "/catalog/bolalar-sport-kostyumi.svg",
+      "images": [
+        "/catalog/bolalar-sport-kostyumi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Ikki qismli sport kostyum.",
+      "id": "_NfmrMpY2Y8",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar sport kostyumi",
+          "color": "To'q ko'k",
+          "category": "Sport kostyum",
+          "description": "Ikki qismli sport kostyum."
+        },
+        "ru": {
+          "name": "Детский спортивный костюм",
+          "color": "Темно-синий",
+          "category": "Спортивный костюм",
+          "description": "Ikki qismli sport kostyum."
+        },
+        "en": {
+          "name": "Kids' Tracksuit",
+          "color": "Navy Blue",
+          "category": "Tracksuit",
+          "description": "Ikki qismli sport kostyum."
+        }
+      }
+    },
+    {
+      "name": "Erkaklar yugurish krossovkasi",
+      "price": 399000,
+      "category": "poyabzal",
+      "color": "qora",
+      "colorKey": "black",
+      "categoryKey": "poyabzal",
+      "size": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "sizesStock": {
+        "40": 8,
+        "41": 8,
+        "42": 8,
+        "43": 8,
+        "44": 8,
+        "45": 8
+      },
+      "stock": 48,
+      "image": "/catalog/erkaklar-yugurish-krossovkasi.svg",
+      "images": [
+        "/catalog/erkaklar-yugurish-krossovkasi.svg"
+      ],
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Yugurish uchun yengil krossovka, amortizatsiyali taglik.",
+      "id": "BxyKWot_G4g",
+      "i18n": {
+        "uz": {
+          "name": "Erkaklar yugurish krossovkasi",
+          "color": "Qora",
+          "category": "Poyabzal",
+          "description": "Yugurish uchun yengil krossovka, amortizatsiyali taglik."
+        },
+        "ru": {
+          "name": "Мужские беговые кроссовки",
+          "color": "Черный",
+          "category": "Обувь",
+          "description": "Yugurish uchun yengil krossovka, amortizatsiyali taglik."
+        },
+        "en": {
+          "name": "Men's Running Sneakers",
+          "color": "Black",
+          "category": "Footwear",
+          "description": "Yugurish uchun yengil krossovka, amortizatsiyali taglik."
+        }
+      }
+    },
+    {
+      "name": "Erkaklar klassik krossovkasi",
+      "price": 359000,
+      "category": "poyabzal",
+      "color": "oq",
+      "colorKey": "white",
+      "categoryKey": "poyabzal",
+      "size": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "sizesStock": {
+        "40": 8,
+        "41": 8,
+        "42": 8,
+        "43": 8,
+        "44": 8,
+        "45": 8
+      },
+      "stock": 48,
+      "image": "/catalog/erkaklar-klassik-krossovkasi.svg",
+      "images": [
+        "/catalog/erkaklar-klassik-krossovkasi.svg"
+      ],
+      "forWho": "Erkaklar",
+      "gender": "Erkaklar",
+      "description": "Kundalik kiyim uchun klassik oq krossovka.",
+      "id": "Wzx8exbVejs",
+      "i18n": {
+        "uz": {
+          "name": "Erkaklar klassik krossovkasi",
+          "color": "Oq",
+          "category": "Poyabzal",
+          "description": "Kundalik kiyim uchun klassik oq krossovka."
+        },
+        "ru": {
+          "name": "Мужские классические кроссовки",
+          "color": "Белый",
+          "category": "Обувь",
+          "description": "Kundalik kiyim uchun klassik oq krossovka."
+        },
+        "en": {
+          "name": "Men's Classic Sneakers",
+          "color": "White",
+          "category": "Footwear",
+          "description": "Kundalik kiyim uchun klassik oq krossovka."
+        }
+      }
+    },
+    {
+      "name": "Ayollar sport krossovkasi",
+      "price": 379000,
+      "category": "poyabzal",
+      "color": "pushti",
+      "colorKey": "pink",
+      "categoryKey": "poyabzal",
+      "size": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "sizesStock": {
+        "36": 8,
+        "37": 8,
+        "38": 8,
+        "39": 8,
+        "40": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-sport-krossovkasi.svg",
+      "images": [
+        "/catalog/ayollar-sport-krossovkasi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Yengil ayollar krossovkasi, nafas oluvchi mato.",
+      "id": "yWHOxtrXVZY",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar sport krossovkasi",
+          "color": "Pushti",
+          "category": "Poyabzal",
+          "description": "Yengil ayollar krossovkasi, nafas oluvchi mato."
+        },
+        "ru": {
+          "name": "Женские спортивные кроссовки",
+          "color": "Розовый",
+          "category": "Обувь",
+          "description": "Yengil ayollar krossovkasi, nafas oluvchi mato."
+        },
+        "en": {
+          "name": "Women's Sports Sneakers",
+          "color": "Pink",
+          "category": "Footwear",
+          "description": "Yengil ayollar krossovkasi, nafas oluvchi mato."
+        }
+      }
+    },
+    {
+      "name": "Ayollar kundalik krossovkasi",
+      "price": 349000,
+      "category": "poyabzal",
+      "color": "oq",
+      "colorKey": "white",
+      "categoryKey": "poyabzal",
+      "size": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "sizesStock": {
+        "36": 8,
+        "37": 8,
+        "38": 8,
+        "39": 8,
+        "40": 8
+      },
+      "stock": 40,
+      "image": "/catalog/ayollar-kundalik-krossovkasi.svg",
+      "images": [
+        "/catalog/ayollar-kundalik-krossovkasi.svg"
+      ],
+      "forWho": "Ayollar",
+      "gender": "Ayollar",
+      "description": "Har kuni kiyish uchun qulay krossovka.",
+      "id": "ZwrUAbNhtX0",
+      "i18n": {
+        "uz": {
+          "name": "Ayollar kundalik krossovkasi",
+          "color": "Oq",
+          "category": "Poyabzal",
+          "description": "Har kuni kiyish uchun qulay krossovka."
+        },
+        "ru": {
+          "name": "Женские повседневные кроссовки",
+          "color": "Белый",
+          "category": "Обувь",
+          "description": "Har kuni kiyish uchun qulay krossovka."
+        },
+        "en": {
+          "name": "Women's Everyday Sneakers",
+          "color": "White",
+          "category": "Footwear",
+          "description": "Har kuni kiyish uchun qulay krossovka."
+        }
+      }
+    },
+    {
+      "name": "Bolalar krossovkasi",
+      "price": 229000,
+      "category": "poyabzal",
+      "color": "ko'k",
+      "colorKey": "blue",
+      "categoryKey": "poyabzal",
+      "size": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "sizesStock": {
+        "28": 6,
+        "30": 6,
+        "32": 6,
+        "34": 6
+      },
+      "stock": 24,
+      "image": "/catalog/bolalar-krossovkasi.svg",
+      "images": [
+        "/catalog/bolalar-krossovkasi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Bolalar uchun yengil krossovka, lipuchkali.",
+      "id": "WEx1FO-PbGY",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar krossovkasi",
+          "color": "Ko'k",
+          "category": "Poyabzal",
+          "description": "Bolalar uchun yengil krossovka, lipuchkali."
+        },
+        "ru": {
+          "name": "Детские кроссовки",
+          "color": "Синий",
+          "category": "Обувь",
+          "description": "Bolalar uchun yengil krossovka, lipuchkali."
+        },
+        "en": {
+          "name": "Kids' Sneakers",
+          "color": "Blue",
+          "category": "Footwear",
+          "description": "Bolalar uchun yengil krossovka, lipuchkali."
+        }
+      }
+    },
+    {
+      "name": "Bolalar sport krossovkasi",
+      "price": 249000,
+      "category": "poyabzal",
+      "color": "qizil",
+      "colorKey": "red",
+      "categoryKey": "poyabzal",
+      "size": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "sizesStock": {
+        "28": 6,
+        "30": 6,
+        "32": 6,
+        "34": 6
+      },
+      "stock": 24,
+      "image": "/catalog/bolalar-sport-krossovkasi.svg",
+      "images": [
+        "/catalog/bolalar-sport-krossovkasi.svg"
+      ],
+      "forWho": "Bolalar",
+      "gender": "Bolalar",
+      "description": "Faol o'yinlar uchun chidamli krossovka.",
+      "id": "RECT03mKOfs",
+      "i18n": {
+        "uz": {
+          "name": "Bolalar sport krossovkasi",
+          "color": "Qizil",
+          "category": "Poyabzal",
+          "description": "Faol o'yinlar uchun chidamli krossovka."
+        },
+        "ru": {
+          "name": "Детские спортивные кроссовки",
+          "color": "Красный",
+          "category": "Обувь",
+          "description": "Faol o'yinlar uchun chidamli krossovka."
+        },
+        "en": {
+          "name": "Kids' Sports Sneakers",
+          "color": "Red",
+          "category": "Footwear",
+          "description": "Faol o'yinlar uchun chidamli krossovka."
+        }
+      }
+    }
+  ],
+  "users": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

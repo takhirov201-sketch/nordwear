@@ -1,0 +1,142 @@
+/* In-flow centered card. It used to be `position: fixed; inset: 0`, which made it
+   an overlay centred on the viewport — the card slid under the navbar, could not
+   be scrolled on short screens, and covered the rest of the page. */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 240px);
+  padding: 40px 20px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 420px;
+  padding: 36px 32px;
+  background: var(--surface);
+  border: 1px solid var(--surface-strong);
+  border-radius: 18px;
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.12);
+}
+
+.login-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.login-brand img {
+  width: 36px;
+  height: 36px;
+}
+
+.login-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+}
+
+.login-subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--surface-strong);
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  background: var(--surface);
+  color: var(--text);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+}
+
+.form-input::placeholder {
+  color: var(--muted);
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  background: #071a33; /* deep navy like mock */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.form-button:hover:not(:disabled) {
+  background: #041428;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(4, 20, 40, 0.12);
+}
+
+.form-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin: 12px 0;
+  padding: 10px 12px;
+  background: rgba(239, 68, 68, 0.08);
+  color: var(--danger);
+  border-radius: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.form-footer {
+  margin: 6px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.form-footer a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.18s ease;
+}
+
+.form-footer a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .login-form { max-width: 360px; padding: 28px 20px; border-radius: 14px; }
+  .login-title { font-size: 16px; }
+  .form-input { padding: 10px 12px; font-size: 14px; }
+  .form-button { padding: 10px 12px; font-size: 14px; border-radius: 8px; }
+}
+
+@media (max-width: 420px) {
+  .login-form { width: 92%; padding: 20px; }
+  .login-brand img { width: 32px; height: 32px; }
+  .login-title { font-size: 15px; }
+}

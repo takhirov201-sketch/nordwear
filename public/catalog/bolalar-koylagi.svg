@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Bolalar ko'ylagi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a98fd6"/>
+      <stop offset="1" stop-color="#816bae"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="530" rx="170" ry="24" fill="#0f172a" opacity="0.07"/>
+  <path d="M196 150 L258 122 Q300 164 342 122 L404 150 L444 208 L400 242 L388 226
+          L404 330 L452 512 Q300 542 148 512 L196 330 L212 226 L200 242 L156 208 Z" fill="url(#gm)" stroke="#816bae" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M212 226 L388 226" stroke="#816bae" stroke-width="6" opacity="0.6"/>
+</svg>
