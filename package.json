@@ -11,6 +11,7 @@
     "server": "node server.js",
     "start": "concurrently \"npm run dev\" \"npm run server\"",
     "migrate": "node --env-file=.env.local scripts/migrate-to-mongo.mjs",
+    "dev:api": "vercel dev --listen 3000",
     "firebase:deploy": "firebase deploy",
     "firebase:emulators": "firebase emulators:start"
   },
@@ -55,6 +56,7 @@
     "globals": "^17.7.0",
     "json-server": "^1.0.0-beta.15",
     "typescript": "^7.0.2",
+    "vercel": "^59.25.4",
     "vite": "^8.1.1"
   }
 }

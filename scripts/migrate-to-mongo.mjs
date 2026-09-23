@@ -10,8 +10,13 @@
 import { readFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import dns from 'node:dns'
 import { MongoClient } from 'mongodb'
 import bcrypt from 'bcryptjs'
+
+// Node's default DNS resolver can fail the SRV lookup mongodb+srv:// needs
+// (seen on Windows behind certain routers/VPNs); a public resolver fixes it.
+dns.setServers(['8.8.8.8', '1.1.1.1'])
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 

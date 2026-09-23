@@ -1,3 +1,4 @@
+import dns from 'node:dns'
 import { MongoClient } from 'mongodb'
 
 const dbName = process.env.MONGODB_DB || 'nordwear'
@@ -8,6 +9,17 @@ let cached = globalThis.__nordwearMongo
 
 if (!cached) {
   cached = globalThis.__nordwearMongo = { client: null, promise: null }
+}
+
+function isDnsError(error) {
+  return error?.code === 'ENOTFOUND' || /querySrv|ECONNREFUSED|EAI_AGAIN/i.test(error?.message || '')
+}
+
+async function connect(uri) {
+  return new MongoClient(uri, {
+    maxPoolSize: 10,
+    serverSelectionTimeoutMS: 8000,
+  }).connect()
 }
 
 export async function getDb() {
@@ -21,10 +33,16 @@ export async function getDb() {
   if (cached.client) return cached.client.db(dbName)
 
   if (!cached.promise) {
-    cached.promise = new MongoClient(uri, {
-      maxPoolSize: 10,
-      serverSelectionTimeoutMS: 8000,
-    }).connect()
+    cached.promise = connect(uri).catch((error) => {
+      // Node's default resolver can fail the SRV lookup mongodb+srv:// needs
+      // (seen on Windows dev machines behind certain routers/VPNs). A public
+      // resolver almost always fixes it, so retry once before giving up.
+      if (!isDnsError(error)) throw error
+
+      console.warn('MongoDB SRV lookup failed via the system DNS resolver, retrying with 8.8.8.8/1.1.1.1:', error.message)
+      dns.setServers(['8.8.8.8', '1.1.1.1'])
+      return connect(uri)
+    })
   }
 
   cached.client = await cached.promise
